@@ -29,4 +29,4 @@ jobs:
     - name: Run unit-test
       run: |
         cd HtmlParser
-        xcodebuild test -scheme HtmlParser -target HtmlParserTests -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.5'
+        xcodebuild test -scheme HtmlParser -target HtmlParserTests -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.6'
