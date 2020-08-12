@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186EE67F21E8280B00797D2E /* HtmlParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186EE67521E8280B00797D2E /* HtmlParser.framework */; };
+		186EE68421E8280B00797D2E /* HtmlParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE68321E8280B00797D2E /* HtmlParserTests.m */; };
+		186EE68621E8280C00797D2E /* HtmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 186EE67821E8280B00797D2E /* HtmlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186EE69121E8289400797D2E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186EE69021E8289400797D2E /* libxml2.tbd */; };
+		186EE69221E828B200797D2E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186EE69021E8289400797D2E /* libxml2.tbd */; };
+		186EE69521E828E100797D2E /* XPathHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 186EE69321E828E100797D2E /* XPathHandler.h */; };
+		186EE69621E828E100797D2E /* XPathHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69421E828E100797D2E /* XPathHandler.m */; };
+		186EE69A21E83BA700797D2E /* LKHtmlElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 186EE69821E83BA700797D2E /* LKHtmlElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186EE69B21E83BA700797D2E /* LKHtmlElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69921E83BA700797D2E /* LKHtmlElement.m */; };
+		186EE69F21E843E600797D2E /* LKHtmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 186EE69D21E843E600797D2E /* LKHtmlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186EE6A021E843E600797D2E /* LKHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69E21E843E600797D2E /* LKHtmlParser.m */; };
+		18EB22FB225F3FA300582C8A /* LKHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69E21E843E600797D2E /* LKHtmlParser.m */; };
+		18EB22FC225F3FA600582C8A /* LKHtmlElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69921E83BA700797D2E /* LKHtmlElement.m */; };
+		18EB22FD225F3FAA00582C8A /* XPathHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EE69421E828E100797D2E /* XPathHandler.m */; };
+		5F788AE021ECC53D00BE6CD2 /* HtlmDocParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F788ADF21ECC53D00BE6CD2 /* HtlmDocParserTests.m */; };
+		5F788AE221ECD33D00BE6CD2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F788AE121ECD33D00BE6CD2 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186EE68021E8280B00797D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186EE66C21E8280B00797D2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186EE67421E8280B00797D2E;
+			remoteInfo = HtmlParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186EE67521E8280B00797D2E /* HtmlParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HtmlParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186EE67821E8280B00797D2E /* HtmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HtmlParser.h; sourceTree = "<group>"; };
+		186EE67921E8280B00797D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186EE67E21E8280B00797D2E /* HtmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186EE68321E8280B00797D2E /* HtmlParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlParserTests.m; sourceTree = "<group>"; };
+		186EE68521E8280C00797D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186EE69021E8289400797D2E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		186EE69321E828E100797D2E /* XPathHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPathHandler.h; sourceTree = "<group>"; };
+		186EE69421E828E100797D2E /* XPathHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPathHandler.m; sourceTree = "<group>"; };
+		186EE69821E83BA700797D2E /* LKHtmlElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKHtmlElement.h; sourceTree = "<group>"; };
+		186EE69921E83BA700797D2E /* LKHtmlElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKHtmlElement.m; sourceTree = "<group>"; };
+		186EE69D21E843E600797D2E /* LKHtmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKHtmlParser.h; sourceTree = "<group>"; };
+		186EE69E21E843E600797D2E /* LKHtmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKHtmlParser.m; sourceTree = "<group>"; };
+		5F788ADF21ECC53D00BE6CD2 /* HtlmDocParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtlmDocParserTests.m; sourceTree = "<group>"; };
+		5F788AE121ECD33D00BE6CD2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186EE67221E8280B00797D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EE69121E8289400797D2E /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186EE67B21E8280B00797D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EE69221E828B200797D2E /* libxml2.tbd in Frameworks */,
+				186EE67F21E8280B00797D2E /* HtmlParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186EE66B21E8280B00797D2E = {
+			isa = PBXGroup;
+			children = (
+				186EE67721E8280B00797D2E /* HtmlParser */,
+				186EE68221E8280B00797D2E /* HtmlParserTests */,
+				186EE67621E8280B00797D2E /* Products */,
+				186EE68F21E8289400797D2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186EE67621E8280B00797D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186EE67521E8280B00797D2E /* HtmlParser.framework */,
+				186EE67E21E8280B00797D2E /* HtmlParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186EE67721E8280B00797D2E /* HtmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				186EE67821E8280B00797D2E /* HtmlParser.h */,
+				186EE69D21E843E600797D2E /* LKHtmlParser.h */,
+				186EE69E21E843E600797D2E /* LKHtmlParser.m */,
+				186EE69821E83BA700797D2E /* LKHtmlElement.h */,
+				186EE69921E83BA700797D2E /* LKHtmlElement.m */,
+				186EE69321E828E100797D2E /* XPathHandler.h */,
+				186EE69421E828E100797D2E /* XPathHandler.m */,
+				186EE67921E8280B00797D2E /* Info.plist */,
+			);
+			path = HtmlParser;
+			sourceTree = "<group>";
+		};
+		186EE68221E8280B00797D2E /* HtmlParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F788AE121ECD33D00BE6CD2 /* index.html */,
+				5F788ADF21ECC53D00BE6CD2 /* HtlmDocParserTests.m */,
+				186EE68321E8280B00797D2E /* HtmlParserTests.m */,
+				186EE68521E8280C00797D2E /* Info.plist */,
+			);
+			path = HtmlParserTests;
+			sourceTree = "<group>";
+		};
+		186EE68F21E8289400797D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186EE69021E8289400797D2E /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		186EE67021E8280B00797D2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EE68621E8280C00797D2E /* HtmlParser.h in Headers */,
+				186EE69F21E843E600797D2E /* LKHtmlParser.h in Headers */,
+				186EE69A21E83BA700797D2E /* LKHtmlElement.h in Headers */,
+				186EE69521E828E100797D2E /* XPathHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		186EE67421E8280B00797D2E /* HtmlParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186EE68921E8280C00797D2E /* Build configuration list for PBXNativeTarget "HtmlParser" */;
+			buildPhases = (
+				186EE67021E8280B00797D2E /* Headers */,
+				186EE67121E8280B00797D2E /* Sources */,
+				186EE67221E8280B00797D2E /* Frameworks */,
+				186EE67321E8280B00797D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlParser;
+			productName = HtmlParser;
+			productReference = 186EE67521E8280B00797D2E /* HtmlParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		186EE67D21E8280B00797D2E /* HtmlParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186EE68C21E8280C00797D2E /* Build configuration list for PBXNativeTarget "HtmlParserTests" */;
+			buildPhases = (
+				186EE67A21E8280B00797D2E /* Sources */,
+				186EE67B21E8280B00797D2E /* Frameworks */,
+				186EE67C21E8280B00797D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186EE68121E8280B00797D2E /* PBXTargetDependency */,
+			);
+			name = HtmlParserTests;
+			productName = HtmlParserTests;
+			productReference = 186EE67E21E8280B00797D2E /* HtmlParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186EE66C21E8280B00797D2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Coremail;
+				TargetAttributes = {
+					186EE67421E8280B00797D2E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					186EE67D21E8280B00797D2E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 186EE66F21E8280B00797D2E /* Build configuration list for PBXProject "HtmlParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186EE66B21E8280B00797D2E;
+			productRefGroup = 186EE67621E8280B00797D2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186EE67421E8280B00797D2E /* HtmlParser */,
+				186EE67D21E8280B00797D2E /* HtmlParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186EE67321E8280B00797D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186EE67C21E8280B00797D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F788AE221ECD33D00BE6CD2 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186EE67121E8280B00797D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EE6A021E843E600797D2E /* LKHtmlParser.m in Sources */,
+				186EE69B21E83BA700797D2E /* LKHtmlElement.m in Sources */,
+				186EE69621E828E100797D2E /* XPathHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186EE67A21E8280B00797D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB22FC225F3FA600582C8A /* LKHtmlElement.m in Sources */,
+				18EB22FB225F3FA300582C8A /* LKHtmlParser.m in Sources */,
+				18EB22FD225F3FAA00582C8A /* XPathHandler.m in Sources */,
+				186EE68421E8280B00797D2E /* HtmlParserTests.m in Sources */,
+				5F788AE021ECC53D00BE6CD2 /* HtlmDocParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186EE68121E8280B00797D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186EE67421E8280B00797D2E /* HtmlParser */;
+			targetProxy = 186EE68021E8280B00797D2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		186EE68721E8280C00797D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		186EE68821E8280C00797D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		186EE68A21E8280C00797D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = HtmlParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lunkr.HtmlParser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186EE68B21E8280C00797D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = HtmlParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lunkr.HtmlParser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186EE68D21E8280C00797D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = HtmlParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lunkr.HtmlParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186EE68E21E8280C00797D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = HtmlParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lunkr.HtmlParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186EE66F21E8280B00797D2E /* Build configuration list for PBXProject "HtmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EE68721E8280C00797D2E /* Debug */,
+				186EE68821E8280C00797D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186EE68921E8280C00797D2E /* Build configuration list for PBXNativeTarget "HtmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EE68A21E8280C00797D2E /* Debug */,
+				186EE68B21E8280C00797D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186EE68C21E8280C00797D2E /* Build configuration list for PBXNativeTarget "HtmlParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EE68D21E8280C00797D2E /* Debug */,
+				186EE68E21E8280C00797D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186EE66C21E8280B00797D2E /* Project object */;
+}
